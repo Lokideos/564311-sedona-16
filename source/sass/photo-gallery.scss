@@ -1,0 +1,21 @@
+.photo-gallery__title {
+  margin: 0;
+  margin-bottom: 33px;
+
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.photo-list {
+  margin: 0;
+  padding: 0;
+}
+
+.photo-list__item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.photo-list__item--first-item {
+  border-top: 1px solid #e5e5e5;
+}

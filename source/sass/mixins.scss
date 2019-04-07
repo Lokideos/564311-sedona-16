@@ -18,6 +18,11 @@
   margin-bottom: 23px;
 }
 
+@mixin photo-list__photo-frame {
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
 .main-promo {
   @include main-content__main-promo;
 }
@@ -36,4 +41,8 @@
 
 .copyright {
   @include page-footer__copyright;
+}
+
+.photo-frame {
+  @include photo-list__photo-frame;
 }
