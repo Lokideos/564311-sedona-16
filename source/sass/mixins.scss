@@ -1,0 +1,7 @@
+@mixin page-content-wrapper__main-promo {
+  margin-bottom: 43px;
+}
+
+.main-promo {
+  @include page-content-wrapper__main-promo;
+}
