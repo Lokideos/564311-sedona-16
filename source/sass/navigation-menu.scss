@@ -1,0 +1,38 @@
+.navigation-menu__list {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu__link {
+  display: block;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+  box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+  &:hover,
+  &:focus {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.navigation-menu__link--current-page {
+  &:hover,
+  &:focus {
+    background-color: #81b3d2;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
