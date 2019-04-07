@@ -6,10 +6,34 @@
   margin-bottom: 35px;
 }
 
+@mixin page-footer__hastag {
+  margin-bottom: 41px;
+}
+
+@mixin page-footer__social-networks {
+  margin-bottom: 40px;
+}
+
+@mixin page-footer__copyright {
+  margin-bottom: 23px;
+}
+
 .main-promo {
   @include page-content-wrapper__main-promo;
 }
 
 .promo {
   @include page-content-wrapper__promo;
+}
+
+.hashtag {
+  @include page-footer__hastag;
+}
+
+.social-networks {
+  @include page-footer__social-networks;
+}
+
+.copyright {
+  @include page-footer__copyright;
 }

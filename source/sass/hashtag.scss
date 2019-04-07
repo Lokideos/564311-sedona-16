@@ -1,0 +1,17 @@
+.hashtag {
+  display: block;
+
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+  &:hover,
+  &:focus {
+    color: #81b3d2;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
