@@ -1,0 +1,48 @@
+.benefits-list {
+  margin: 0;
+  padding: 0;
+}
+
+.benefits-list__item {
+  background-color: #eeeeee;
+}
+
+.benefits-list__number {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.benefits-list__reason {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.benefits-list__explanation {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.benefits-list__image {
+  width: 320px;
+  height: 260px;
+}
+
+.benefits-list__item--common {
+  background-color: #ffffff;
+}
+
+.benefits-list__item--key-point {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.benefits-list__reason--key-point {
+  color: #ffffff;
+}
