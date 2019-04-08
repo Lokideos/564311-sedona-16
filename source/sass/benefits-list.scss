@@ -4,6 +4,10 @@
 }
 
 .benefits-list__item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 33px;
+
   background-color: #eeeeee;
 }
 
@@ -20,6 +24,8 @@
   line-height: 26px;
   font-weight: 700;
   color: #000000;
+
+  order: -1;
 }
 
 .benefits-list__explanation {
@@ -35,7 +41,13 @@
 }
 
 .benefits-list__item--common {
+  text-align: left;
+
   background-color: #ffffff;
+}
+
+.benefits-list__explanation--common {
+  margin-bottom: 35px;
 }
 
 .benefits-list__item--key-point {
@@ -45,4 +57,24 @@
 
 .benefits-list__reason--key-point {
   color: #ffffff;
+}
+
+.benefits-list__explanation--key-point {
+  margin-bottom: 42px;
+}
+
+.benefits-list__item--general-point {
+  margin-bottom: 0;
+
+  border-top: 1px solid #d6d6d6;
+}
+
+.benefits-list__explanation--general-point  {
+  margin-bottom: 32px;
+}
+
+.benefits-list__item--first-general-point {
+  margin-bottom: 0;
+
+  border-top: none;
 }
