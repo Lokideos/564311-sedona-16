@@ -4,5 +4,19 @@
   width: 150px;
   margin: 0;
   padding: 0;
+
   list-style: none;
+}
+
+.social-networks__button {
+  background-color: #81b3d2;
+
+  &:hover,
+  &:focus {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+  }
 }
