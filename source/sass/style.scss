@@ -1,6 +1,8 @@
 @import "normalize.scss";
-@import "visually-hidden.scss";
+@import "fonts.scss";
+@import "mixins.scss";
 @import "global.scss";
+@import "visually-hidden.scss";
 @import "button.scss";
 @import "page-header.scss";
 @import "navigation-menu.scss";
@@ -17,4 +19,3 @@
 @import "photo-frame.scss";
 @import "like-button.scss";
 @import "counter.scss";
-@import "mixins.scss";
