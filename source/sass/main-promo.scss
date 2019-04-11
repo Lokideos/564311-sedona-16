@@ -4,6 +4,8 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-color: $blue--light;
+
+  @include main-content__big-promo;
 }
 
 .main-promo--index-page {

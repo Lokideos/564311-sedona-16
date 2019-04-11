@@ -5,4 +5,6 @@
   line-height: 26px;
   font-weight: 700;
   color: $black;
+
+  @include main-content__small-promo;
 }

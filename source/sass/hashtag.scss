@@ -14,4 +14,6 @@
   &:active {
     opacity: 0.3;
   }
+
+  @include page-footer__hastag-placement;
 }

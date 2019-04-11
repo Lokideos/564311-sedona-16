@@ -1,8 +1,17 @@
 .logo {
+  position: relative;
+
   display: block;
+
+  @include page-header__logo-placement;
 }
 
 .logo__image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
   width: 102px;
   height: 83px;
+  margin-left: -51px;
 }

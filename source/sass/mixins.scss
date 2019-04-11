@@ -23,26 +23,8 @@
   margin-left: 20px;
 }
 
-.main-promo {
-  @include main-content__big-promo;
-}
+@mixin page-header__logo-placement {
+  min-height: 36px;
 
-.promo {
-  @include main-content__small-promo;
-}
-
-.hashtag {
-  @include page-footer__hastag-placement;
-}
-
-.social-networks {
-  @include page-footer__social;
-}
-
-.copyright {
-  @include page-footer__copyright-placement;
-}
-
-.photo-frame {
-  @include photo-list__frame;
+  order: 2;
 }
