@@ -13,10 +13,10 @@
 
   &:hover,
   &:focus {
-    background-color: $blue--darker;
+    background-color: $hover-color;
   }
 
   &:active {
-    background-color: $blue--dark;
+    background-color: $click-color;
   }
 }
