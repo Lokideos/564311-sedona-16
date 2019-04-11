@@ -3,12 +3,17 @@
   justify-content: space-between;
   width: 150px;
   margin: 0;
+  margin-left: 84px;
   padding: 0;
 
   list-style: none;
 }
 
 .social-networks__button {
+  display: block;
+  width: 46px;
+  height: 48px;
+
   background-color: $blue;
 
   &:hover,
