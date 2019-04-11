@@ -3,7 +3,7 @@
 
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-color: #abc9d9;
+  background-color: $blue--light;
 }
 
 .main-promo--index-page {
@@ -13,5 +13,5 @@
 .main-promo__title {
   margin: 0;
 
-  color: #ffffff;
+  color: $white;
 }

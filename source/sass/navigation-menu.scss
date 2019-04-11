@@ -11,34 +11,34 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 40px;
-  color: #ffffff;
+  color: $white;
 
-  background-color: #81b3d2;
-  box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  background-color: $blue;
+  box-shadow: 0 1px 0 $black--transparent, inset 0 1px 0 $white--more-transparent;
 
   &:first-of-type {
-    box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2);
+    box-shadow: 0 1px 0 $black--transparent;
   }
 
   &:last-of-type {
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 1px 0 $white--more-transparent;
   }
 
   &:hover,
   &:focus {
-    background-color: #669ec0;
+    background-color: $blue--darker;
   }
 
   &:active {
-    background-color: #5496bd;
-    color: rgba(255, 255, 255, 0.3);
+    background-color: $blue--dark;
+    color: $white--less-transparent;
   }
 }
 
 .navigation-menu__link--current-page {
   &:hover,
   &:focus {
-    background-color: #81b3d2;
+    background-color: $blue;
   }
 
   &:active {

@@ -9,14 +9,14 @@
 }
 
 .social-networks__button {
-  background-color: #81b3d2;
+  background-color: $blue;
 
   &:hover,
   &:focus {
-    background-color: #669ec0;
+    background-color: $blue--darker;
   }
 
   &:active {
-    background-color: #5496bd;
+    background-color: $blue--dark;
   }
 }
