@@ -14,8 +14,36 @@
 }
 
 .benefits-list__number {
+  position: relative;
+
   margin: 0;
   margin-bottom: 15px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: calc(50% - 1px);
+    left: calc(50% - 25px);
+
+    height: 2px;
+    width: 9px;
+
+    background-color: $grey--darker;
+  }
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: calc(50% - 1px);
+    left: calc(50% + 15px);
+
+    height: 2px;
+    width: 8px;
+
+    background-color: $grey--darker;
+  }
 }
 
 .benefits-list__reason {
@@ -59,6 +87,11 @@
 .benefits-list__item--key-point {
   background-color: $blue;
   color: $white;
+
+  &::before,
+  &::after {
+    background-color: $white;
+  }
 }
 
 .benefits-list__item--general-point {
