@@ -78,7 +78,7 @@
 
   text-align: left;
 
-  background-color: $white;
+  background-color: $theme-background-color;
 
   &-with-top-padding {
     padding-top: 33px;
@@ -86,12 +86,12 @@
 }
 
 .benefits-list__item--key-point {
-  background-color: $blue;
-  color: $white;
+  background-color: $theme-color;
+  color: $sub-text-color;
 
   &::before,
   &::after {
-    background-color: $white;
+    background-color: $theme-background-color;
   }
 }
 
