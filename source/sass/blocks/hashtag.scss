@@ -1,5 +1,6 @@
 .hashtag {
   display: block;
+  margin-bottom: 41px;
 
   font-size: 21px;
   line-height: 26px;
@@ -14,6 +15,4 @@
   &:active {
     opacity: 0.3;
   }
-
-  @include page-footer__hastag-placement;
 }

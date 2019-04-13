@@ -1,8 +1,7 @@
 .copyright {
   margin: 0;
+  margin-bottom: 23px;
   padding: 0;
 
   line-height: 26px;
-
-  @include page-footer__copyright-placement;
 }
