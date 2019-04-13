@@ -80,7 +80,7 @@
 
   background-color: $white;
 
-  &-first {
+  &-with-top-padding {
     padding-top: 33px;
   }
 }
@@ -101,7 +101,7 @@
 
   border-top: 1px solid $grey;
 
-  &-first {
+  &-no-top-border {
     border-top: none;
   }
 }
