@@ -1,0 +1,25 @@
+// Default font
+$default-font: "PT Sans", "Arial", sans-serif;
+
+// Colors
+$grey--light: #eeeeee;
+$grey--lighter: #e5e5e5;
+$grey: #d6d6d6;
+$grey--darker: #333333;
+$white: #ffffff;
+$white--less-transparent: rgba(255, 255, 255, 0.3);
+$white--more-transparent: rgba(255, 255, 255, 0.2);
+$blue--dark: #5496bd;
+$blue--darker: #669ec0;
+$blue: #81b3d2;
+$blue--light: #abc9d9;
+$black: #000000;
+$black--transparent: rgba(1, 1, 1, 0.2);
+
+// Logic Colors
+$click-color: $blue--dark;
+$hover-color: $blue--darker;
+$theme-color: $blue;
+$theme-background-color: $white;
+$main-text-color: $grey--darker;
+$sub-text-color: $white;

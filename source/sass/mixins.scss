@@ -1,0 +1,10 @@
+@mixin photo-list__frame {
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
+@mixin page-header__logo-placement {
+  min-height: 56px;
+
+  order: 2;
+}

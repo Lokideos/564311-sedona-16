@@ -1,0 +1,20 @@
+.copyright {
+  position: relative;
+
+  display: block;
+  width: 91px;
+  margin: 0;
+  margin-bottom: 23px;
+  padding: 0;
+  padding-right: 38px;
+
+  line-height: 26px;
+}
+
+.copyright__link {
+  content: url("../../img/logo-htmlacademy.svg");
+
+  position: absolute;
+  top: -4px;
+  right: 0;
+}

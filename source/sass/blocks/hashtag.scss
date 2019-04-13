@@ -1,0 +1,18 @@
+.hashtag {
+  display: block;
+  margin-bottom: 41px;
+
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $black;
+
+  &:hover,
+  &:focus {
+    color: $theme-color;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

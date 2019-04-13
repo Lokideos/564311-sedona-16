@@ -1,0 +1,14 @@
+.photo-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.photo-list__item {
+  border-bottom: 1px solid $grey--lighter;
+
+  &:first-of-type {
+    border-top: 1px solid $grey--lighter;
+  }
+}

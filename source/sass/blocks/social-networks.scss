@@ -1,0 +1,27 @@
+.social-networks__list {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social-networks__button {
+  display: block;
+  width: 46px;
+  height: 48px;
+
+  background-color: $theme-color;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+  }
+
+  &:active {
+    background-color: $click-color;
+  }
+}

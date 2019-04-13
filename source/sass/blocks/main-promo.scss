@@ -1,0 +1,25 @@
+.main-promo {
+  position: relative;
+
+  min-height: 158px;
+  margin-bottom: 43px;
+
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: $blue--light;
+
+  order: -1;
+}
+
+.main-promo--index-page {
+  min-height: 389px;
+}
+
+.main-promo__title {
+  margin-top: 52px;
+}
+
+.main-promo__title--big {
+  margin-top: 90px;
+}
