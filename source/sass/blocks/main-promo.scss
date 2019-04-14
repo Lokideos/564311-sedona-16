@@ -49,3 +49,15 @@
     margin-top: 77px;
   }
 }
+
+@media(min-width: 1200px) {
+  .main-promo {
+    background-image: url("../../img/bg-back-desktop@1x.jpg");
+  }
+
+  .main-promo--index-page {
+    height: 518px;
+
+    background-position: top;
+  }
+}
