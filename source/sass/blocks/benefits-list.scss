@@ -181,3 +181,32 @@
     padding-left: 15px;
   }
 }
+
+@media(min-width: 1200px) {
+  .benefits-list__item {
+    width: 400px;
+  }
+
+  .benefits-list__item--key-point {
+    width: 1200px;
+  }
+
+  .benefits-list__text-column {
+    width: 400px;
+  }
+
+  .benefits-list__reason {
+    padding: 0 50px;
+
+    font-size: 21px;
+  }
+
+  .benefits-list__image {
+    width: 800px;
+    height: 256px;
+  }
+
+  .benefits-list__item--common {
+    margin-bottom: 85px;
+  }
+}
