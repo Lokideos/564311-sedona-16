@@ -1,8 +1,5 @@
 .benefits-list {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
+  @include list-reset;
 }
 
 .benefits-list__item {

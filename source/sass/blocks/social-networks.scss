@@ -1,12 +1,10 @@
 .social-networks__list {
+  @include list-reset;
+
   display: flex;
   justify-content: space-between;
   width: 150px;
-  margin: 0;
   margin-bottom: 40px;
-  padding: 0;
-
-  list-style: none;
 }
 
 .social-networks__button {
