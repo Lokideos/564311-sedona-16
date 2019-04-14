@@ -43,7 +43,7 @@
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .navigation-menu__list {
     display: flex;
     justify-content: space-between;
@@ -98,7 +98,7 @@
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .navigation-menu__item {
     &:nth-child(2) {
       margin-right: 244px;
