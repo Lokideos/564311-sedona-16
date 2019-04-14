@@ -3,6 +3,14 @@
   margin-bottom: 33px;
 
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
   font-weight: 400;
+}
+
+@media(min-width: 768px) {
+  .photo-gallery__title {
+    width: 428px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
 }
