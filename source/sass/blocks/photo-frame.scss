@@ -35,3 +35,44 @@
   margin: 0;
   margin-bottom: 23px;
 }
+
+@media(min-width: 768px) {
+  .photo-frame {
+    width: 324px;
+    margin: 0;
+    padding-bottom: 21px;
+
+    background-color: $photo-frame-odd-bg-color;
+
+    &:nth-of-type(2n) {
+      background-color: $photo-frame-even-bg-color;
+    }
+  }
+
+  .photo-frame__image {
+    width: 100%;
+    height: 267px;
+  }
+
+  .photo-frame__description {
+    margin-bottom: 5px;
+    margin-left: 20px;
+  }
+
+  .photo-frame__author {
+    margin-left: 20px;
+  }
+
+  .photo-frame__likes {
+    margin-top: -60px;
+    margin-left: 239px;
+  }
+
+  .photo-frame--most-popular {
+    width: 648px;
+  }
+
+  .photo-frame__likes--most-popular {
+    margin-left: 564px;
+  }
+}
