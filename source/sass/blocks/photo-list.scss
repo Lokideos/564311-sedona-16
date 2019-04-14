@@ -17,10 +17,19 @@
   }
 
   .photo-list__item {
+    background-color: $photo-frame-even-bg-color;
     border: none;
 
     &:first-of-type {
       border: none;
     }
+
+    &:nth-of-type(2n) {
+      background-color: $photo-frame-odd-bg-color;
+    }
+  }
+
+  .photo-list__item--most-popular {
+    background-color: $photo-frame-odd-bg-color;
   }
 }
