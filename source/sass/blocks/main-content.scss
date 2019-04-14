@@ -3,3 +3,9 @@
   flex-direction: column;
   width: 320px;
 }
+
+@media(min-width: 768px) {
+  .main-content {
+    width: 768px;
+  }
+}
