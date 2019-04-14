@@ -71,3 +71,42 @@
     margin-left: 564px;
   }
 }
+
+@media(min-width: 1200px) {
+  .photo-frame {
+    width: 400px;
+
+    color: $white;
+  }
+
+  .photo-frame__likes {
+    z-index: 1;
+
+    margin-top: -50px;
+    margin-left: 315px;
+
+    color: inherit;
+  }
+
+  .photo-frame__image {
+    margin-bottom: -80px;
+  }
+
+  .photo-frame__description {
+    z-index: 1;
+
+    color: inherit;
+  }
+
+  .photo-frame__author {
+    z-index: 1;
+  }
+
+  .photo-frame--most-popular {
+    width: 1200px;
+  }
+
+  .photo-frame__likes--most-popular {
+    margin-left: 1115px;
+  }
+}

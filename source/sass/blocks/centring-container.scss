@@ -1,4 +1,11 @@
-.centring-container {
-  // margin: 0 auto;
-  padding: 0 60px;
+@media(min-width: 768px) {
+  .centring-container {
+    padding: 0 60px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .centring-container {
+    padding: 0;
+  }
 }
