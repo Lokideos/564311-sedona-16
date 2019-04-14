@@ -5,3 +5,12 @@
   width: 320px;
   margin-top: 41px;
 }
+
+@media(min-width: 768px) {
+  .page-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 648px;
+    margin: 36px 60px;
+  }
+}
