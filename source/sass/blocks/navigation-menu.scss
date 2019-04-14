@@ -42,3 +42,55 @@
     opacity: 1;
   }
 }
+
+@media(min-width: 768px) {
+  .navigation-menu__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation-menu__item {
+    &:nth-child(2) {
+      margin-right: 156px;
+    }
+  }
+
+  .navigation-menu__link {
+    box-sizing: border-box;
+    width: 153px;
+    padding-top: 22px;
+    padding-bottom: 23px;
+
+    color: $tablet-text-color;
+
+    background-color: $theme-background-color;
+
+    &:hover,
+    &:focus {
+      color: $theme-color;
+
+      background-color: $theme-background-color;
+    }
+
+    &:active {
+      color: $black;
+
+      background-color: $theme-background-color;
+      opacity: 0.3;
+    }
+  }
+
+  .navigation-menu__link--current-page {
+    color: $tablet-menu-selected-color;
+
+    &:hover,
+    &:focus {
+      color: $tablet-meny-selected-hover-color;
+    }
+
+    &:active {
+      color: $tablet-menu-selected-color;
+      opacity: 0.3;
+    }
+  }
+}

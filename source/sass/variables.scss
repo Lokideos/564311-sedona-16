@@ -2,6 +2,8 @@
 $default-font: "PT Sans", "Arial", sans-serif;
 
 // Colors
+$brown: #766357;
+$brown--darker: #604e43;
 $grey--light: #eeeeee;
 $grey--lighter: #e5e5e5;
 $grey: #d6d6d6;
@@ -23,3 +25,6 @@ $theme-color: $blue;
 $theme-background-color: $white;
 $main-text-color: $grey--darker;
 $sub-text-color: $white;
+$tablet-text-color: $black;
+$tablet-menu-selected-color: $brown;
+$tablet-meny-selected-hover-color: $brown--darker;
