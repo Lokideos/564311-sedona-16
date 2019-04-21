@@ -82,12 +82,12 @@
 
   background-color: $theme-color;
   color: $sub-text-color;
-}
 
-.benefits-list__number--white-lines {
-  &::before,
-  &::after {
-    background-color: $theme-background-color;
+  .benefits-list__number {
+    &::before,
+    &::after {
+      background-color: $theme-background-color;
+    }
   }
 }
 
