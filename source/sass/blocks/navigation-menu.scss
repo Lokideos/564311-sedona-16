@@ -47,7 +47,7 @@
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-viewport-width) {
   .navigation-menu {
     margin: 0 auto;
   }
@@ -57,7 +57,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
-    width: 768px;
+    width: $tablet-viewport-width;
   }
 
   .navigation-menu__link {
@@ -108,9 +108,9 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $desktop-viewport-width) {
   .navigation-menu__list {
-    width: 1200px;
+    width: $desktop-viewport-width;
   }
 
   .navigation-menu__link {

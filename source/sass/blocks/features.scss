@@ -6,7 +6,7 @@
   font-weight: 400;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-viewport-width) {
   .features__announce {
     width: 490px;
     margin: 0 auto;

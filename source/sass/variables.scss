@@ -32,3 +32,8 @@ $tablet-menu-selected-color: $brown;
 $tablet-meny-selected-hover-color: $brown--darker;
 $photo-frame-even-bg-color: $white--dark;
 $photo-frame-odd-bg-color: $white--darker;
+
+// Viewport breakpoints
+$mobile-viewport-width: 320px;
+$tablet-viewport-width: 768px;
+$desktop-viewport-width: 1200px

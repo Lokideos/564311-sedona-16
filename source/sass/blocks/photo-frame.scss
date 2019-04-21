@@ -36,7 +36,7 @@
   margin-bottom: 23px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-viewport-width) {
   .photo-frame {
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,7 +77,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $desktop-viewport-width) {
   .photo-frame {
     width: 400px;
     padding-bottom: 0;
@@ -100,7 +100,7 @@
   }
 
   .photo-frame--most-popular {
-    width: 1200px;
+    width: $desktop-viewport-width;
   }
 
   .photo-frame__left-column {

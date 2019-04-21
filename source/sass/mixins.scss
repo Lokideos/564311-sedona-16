@@ -15,3 +15,15 @@
 
   list-style: none;
 }
+
+@mixin viewport-width {
+  min-width: $mobile-viewport-width;
+
+  @media (min-width: $tablet-viewport-width) {
+    min-width: $tablet-viewport-width;
+  }
+
+  @media (min-width: $desktop-viewport-width) {
+    width: $desktop-viewport-width;
+  }
+}

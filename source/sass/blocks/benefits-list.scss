@@ -106,7 +106,7 @@
   padding: 0 25px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-viewport-width) {
   .benefits-list {
     display: flex;
     justify-content: space-between;
@@ -181,13 +181,13 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $desktop-viewport-width) {
   .benefits-list__item {
     min-width: 400px;
   }
 
   .benefits-list__item--key-point {
-    width: 1200px;
+    width: $desktop-viewport-width;
     margin-top: 85px;
   }
 

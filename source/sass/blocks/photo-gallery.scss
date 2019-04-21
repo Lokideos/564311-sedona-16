@@ -7,7 +7,7 @@
   font-weight: 400;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-viewport-width) {
   .photo-gallery__title {
     width: 428px;
     margin: 0 auto;
