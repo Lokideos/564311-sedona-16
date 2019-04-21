@@ -1,5 +1,6 @@
 .promo {
-  margin: 0;
+  @include centring-wrapper;
+
   margin-bottom: 35px;
 
   font-size: 21px;

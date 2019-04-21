@@ -1,5 +1,5 @@
 .features__announce {
-  margin: 0;
+  @include centring-wrapper;
 
   font-size: 14px;
   line-height: 26px;
@@ -9,6 +9,5 @@
 @media (min-width: $tablet-viewport-width) {
   .features__announce {
     width: 490px;
-    margin: 0 auto;
   }
 }

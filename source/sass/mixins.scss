@@ -27,3 +27,7 @@
     width: $desktop-viewport-width;
   }
 }
+
+@mixin centring-wrapper {
+  margin: 0 auto;
+}
