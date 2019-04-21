@@ -17,3 +17,11 @@
     opacity: 0.3;
   }
 }
+
+@media (min-width: $tablet-viewport-width) {
+  .hashtag {
+    width: 33.33%;
+
+    text-align: left;
+  }
+}
