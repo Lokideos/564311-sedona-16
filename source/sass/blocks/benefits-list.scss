@@ -69,20 +69,17 @@
 }
 
 .benefits-list__item--common {
-  padding-top: 0;
-  padding-bottom: 35px;
+  padding-top: 33px;
   padding-left: 69px;
 
   text-align: left;
 
   background-color: $theme-background-color;
-
-  &-with-top-padding {
-    padding-top: 33px;
-  }
 }
 
 .benefits-list__item--key-point {
+  margin-top: 35px;
+
   background-color: $theme-color;
   color: $sub-text-color;
 }
@@ -145,6 +142,7 @@
 
   .benefits-list__item--key-point {
     width: 100%;
+    margin-top: 66px;
   }
 
   .benefits-list__item--general-point {
@@ -169,7 +167,6 @@
   }
 
   .benefits-list__item--common {
-    margin-bottom: 66px;
     padding: 49px;
     padding-top: 164px;
     padding-bottom: 0;
@@ -187,6 +184,7 @@
 
   .benefits-list__item--key-point {
     min-width: 1200px;
+    margin-top: 85px;
   }
 
   .benefits-list__text-column {
@@ -202,9 +200,5 @@
   .benefits-list__image {
     width: 800px;
     height: 256px;
-  }
-
-  .benefits-list__item--common {
-    margin-bottom: 85px;
   }
 }
