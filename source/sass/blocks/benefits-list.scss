@@ -141,6 +141,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    &::before,
+    &::after {
+      border: none;
+    }
   }
 
   .benefits-list__item {

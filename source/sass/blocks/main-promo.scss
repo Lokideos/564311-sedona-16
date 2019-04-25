@@ -58,6 +58,11 @@
     height: 290px;
 
     background-image: url("../img/bg-back-tablet@1x.jpg");
+
+    &::before,
+    &::after {
+      border: none;
+    }
   }
 
   .main-promo--index-page {
