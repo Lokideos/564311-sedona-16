@@ -1,5 +1,6 @@
 .page-footer {
   @include centring-wrapper;
+  @include centring-paddings;
 
   display: flex;
   flex-direction: column;

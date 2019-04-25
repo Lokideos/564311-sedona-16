@@ -1,5 +1,6 @@
 .photo-list {
   @include list-reset;
+  @include centring-paddings;
 
   margin: 0 auto;
 }
@@ -46,5 +47,6 @@
 @media (min-width: $desktop-viewport-width) {
   .photo-list {
     width: $desktop-viewport-width;
+    padding: 0;
   }
 }

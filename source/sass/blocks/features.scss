@@ -1,5 +1,6 @@
 .features__announce {
   @include centring-wrapper;
+  @include centring-paddings;
 
   font-size: 14px;
   line-height: 26px;

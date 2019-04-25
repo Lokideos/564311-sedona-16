@@ -1,8 +1,8 @@
 .photo-gallery__title {
   @include centring-wrapper;
+  @include centring-paddings;
 
   margin-bottom: 33px;
-  padding: 0 60px;
 
   font-size: 14px;
   line-height: 24px;
@@ -13,6 +13,5 @@
   .photo-gallery__title {
     width: 428px;
     margin-bottom: 75px;
-    padding: 0;
   }
 }
