@@ -1,11 +1,12 @@
 .photo-list {
   @include list-reset;
-  @include centring-paddings;
 
   margin: 0 auto;
 }
 
 .photo-list__item {
+  @include centring-paddings;
+
   display: flex;
   justify-content: center;
   padding-top: 22px;
@@ -19,13 +20,15 @@
 
 @media (min-width: $tablet-viewport-width) {
   .photo-list {
+    @include centring-paddings;
+
     display: flex;
     flex-wrap: wrap;
     width: 648px;
   }
 
   .photo-list__item {
-    padding-top: 0;
+    padding: 0;
 
     background-color: $photo-frame-even-bg-color;
     border: none;
