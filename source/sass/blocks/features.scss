@@ -1,8 +1,14 @@
 .features__announce {
-  margin: 0;
-  margin-bottom: 29px;
+  @include centring-wrapper;
+  @include centring-paddings;
 
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
+}
+
+@media (min-width: $tablet-viewport-width) {
+  .features__announce {
+    width: 490px;
+  }
 }

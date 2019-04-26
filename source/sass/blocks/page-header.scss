@@ -1,9 +1,11 @@
 .page-header {
+  @include viewport-width;
+
   position: relative;
 
   display: flex;
   flex-direction: column;
-  width: 320px;
+  margin: 0 auto;
 }
 
 .page-header__menu-toggle {
@@ -12,4 +14,10 @@
   right: 0;
 
   order: 2;
+}
+
+@media (min-width: $tablet-viewport-width) {
+  .page-header__menu-toggle {
+    display: none;
+  }
 }

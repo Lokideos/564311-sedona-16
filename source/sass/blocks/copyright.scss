@@ -9,12 +9,22 @@
   padding-right: 38px;
 
   line-height: 26px;
+
+  box-sizing: border-box;
 }
 
 .copyright__link {
-  content: url("../../img/logo-htmlacademy.svg");
+  content: url("../img/logo-htmlacademy.svg");
 
   position: absolute;
   top: -4px;
   right: 0;
+}
+
+@media (min-width: $tablet-viewport-width) {
+  .copyright {
+    width: 33.33%;
+
+    text-align: right;
+  }
 }

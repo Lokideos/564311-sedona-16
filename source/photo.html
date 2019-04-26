@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="Аризона,Жильё,Еда,Городок,Гостиница">
     <meta name="description" content="Если вы всегда мечтали побывать в Grand Canyon'е, то забудьте об этом! Ведь есть Седона! Вперед в горы!">
     <link href="css/style.css" rel="stylesheet">
@@ -19,7 +20,7 @@
             <a class="navigation-menu__link" href="index.html">Главная</a>
           </li>
           <li class="navigation-menu__item">
-            <a class="navigation-menu__link navigation-menu__link--current-page">Фото и видео</a>
+            <a class="navigation-menu__link navigation-menu__link--current-page" href="#">Фото и видео</a>
           </li>
           <li class="navigation-menu__item">
             <a class="navigation-menu__link" href="form.html">Форма отзыва</a>
@@ -43,48 +44,68 @@
         <h2 class="photo-gallery__title">Не можете решиться на путешествие из-&nbsp;за&nbsp;курса? Фотографии помогут вам&nbsp;забыть о политике и экономике.</h2>
 
         <ul class="photo-list">
-          <li class="photo-list__item">
-            <article class="photo-frame">
-              <h3 class="photo-frame__description">Неродные просторы</h3>
+          <li class="photo-list__item photo-list__item--most-popular">
+            <article class="photo-frame photo-frame--most-popular">
+              <div class="photo-frame__text-block">
+                <div class="photo-frame__left-column">
+                  <h3 class="photo-frame__description">Неродные просторы</h3>
 
+                  <p class="photo-frame__author">Автор фото: Борис</p>
+                </div>
+
+                <p class= "photo-frame__likes">
+                  <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">1350</span>
+                </p>
+              </div>
               <img class="photo-frame__image" src="img/photo-sunset-mobile@1x.jpg" alt="Неродные просторы" width="280" height="280">
-              <p class="photo-frame__author">Автор фото: Борис</p>
-              <p class= "photo-frame__likes">
-                <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">1350</span>
-              </p>
             </article>
           </li>
           <li class="photo-list__item">
             <article class="photo-frame">
-              <h3 class="photo-frame__description">Местная растительность</h3>
+              <div class="photo-frame__text-block">
+                <div class="photo-frame__left-column">
+                  <h3 class="photo-frame__description">Местная растительность</h3>
 
+                  <p class="photo-frame__author">Автор фото: Сергей</p>
+                </div>
+
+                <p class= "photo-frame__likes">
+                  <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">143</span>
+                </p>
+              </div>
               <img class="photo-frame__image" src="img/photo-cactus-mobile@1x.jpg" alt="Местная растительность" width="280" height="280">
-              <p class="photo-frame__author">Автор фото: Сергей</p>
-              <p class= "photo-frame__likes">
-                <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">143</span>
-              </p>
             </article>
           </li>
           <li class="photo-list__item">
             <article class="photo-frame">
-              <h3 class="photo-frame__description">Дорога на север</h3>
+              <div class="photo-frame__text-block">
+                <div class="photo-frame__left-column">
+                  <h3 class="photo-frame__description">Дорога на север</h3>
 
+                  <p class="photo-frame__author">Автор фото: Петр</p>
+                </div>
+
+                <p class= "photo-frame__likes">
+                  <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">96</span>
+                </p>
+              </div>
               <img class="photo-frame__image" src="img/photo-roads-mobile@1x.jpg" alt="Дорога на север" width="280" height="280">
-              <p class="photo-frame__author">Автор фото: Петр</p>
-              <p class= "photo-frame__likes">
-                <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">96</span>
-              </p>
             </article>
           </li>
           <li class="photo-list__item">
             <article class="photo-frame">
-              <h3 class="photo-frame__description">Мост дьявола</h3>
+              <div class="photo-frame__text-block">
+                <div class="photo-frame__left-column">
+                  <h3 class="photo-frame__description">Мост дьявола</h3>
 
+                  <p class="photo-frame__author">Автор фото: Антон</p>
+                </div>
+
+                <p class= "photo-frame__likes">
+                  <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">254</span>
+                </p>
+              </div>
               <img class="photo-frame__image" src="img/main-bridge-mobile@1x.jpg" alt="Мост дьявола" width="280" height="280">
-              <p class="photo-frame__author">Автор фото: Антон</p>
-              <p class= "photo-frame__likes">
-                <button class="like-button button" type="button"><span class="visually-hidden">Лайк</span></button><span class="counter">254</span>
-              </p>
             </article>
           </li>
         </ul>
@@ -92,7 +113,7 @@
     </main>
 
     <footer class="page-footer">
-      <a class="hashtag" href="#">#VISITSEDONA</a>
+      <a class="hashtag" href="#">#visitsedona</a>
 
       <section class="social-networks">
         <h2 class="visually-hidden">Мы в социальных сетях</h2>

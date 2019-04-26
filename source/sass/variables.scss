@@ -2,11 +2,15 @@
 $default-font: "PT Sans", "Arial", sans-serif;
 
 // Colors
+$brown: #766357;
+$brown--darker: #604e43;
 $grey--light: #eeeeee;
 $grey--lighter: #e5e5e5;
 $grey: #d6d6d6;
 $grey--darker: #333333;
 $white: #ffffff;
+$white--darker: #f2f2f2;
+$white--dark: #eaeaea;
 $white--less-transparent: rgba(255, 255, 255, 0.3);
 $white--more-transparent: rgba(255, 255, 255, 0.2);
 $blue--dark: #5496bd;
@@ -23,3 +27,13 @@ $theme-color: $blue;
 $theme-background-color: $white;
 $main-text-color: $grey--darker;
 $sub-text-color: $white;
+$tablet-text-color: $black;
+$tablet-menu-selected-color: $brown;
+$tablet-meny-selected-hover-color: $brown--darker;
+$photo-frame-even-bg-color: $white--dark;
+$photo-frame-odd-bg-color: $white--darker;
+
+// Viewport breakpoints
+$mobile-viewport-width: 320px;
+$tablet-viewport-width: 768px;
+$desktop-viewport-width: 1200px;

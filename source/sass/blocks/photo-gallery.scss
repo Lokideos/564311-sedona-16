@@ -1,8 +1,17 @@
 .photo-gallery__title {
-  margin: 0;
+  @include centring-wrapper;
+  @include centring-paddings;
+
   margin-bottom: 33px;
 
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
   font-weight: 400;
+}
+
+@media (min-width: $tablet-viewport-width) {
+  .photo-gallery__title {
+    width: 428px;
+    margin-bottom: 75px;
+  }
 }
