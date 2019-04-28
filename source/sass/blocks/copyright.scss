@@ -1,28 +1,51 @@
 .copyright {
-  position: relative;
-
-  display: block;
-  width: 91px;
+  display: flex;
   margin: 0;
   margin-bottom: 23px;
   padding: 0;
-  padding-right: 38px;
 
   line-height: 26px;
-
-  box-sizing: border-box;
 }
 
 .copyright__link {
-  content: url("../img/logo-htmlacademy.svg");
+  position: relative;
 
+  display: block;
+  width: 11px;
+  padding-right: 27px;
+
+  &:hover,
+  &:focus {
+    .copyright__icon {
+      path {
+        fill: $theme-color;
+      }
+    }
+  }
+
+  &:active {
+    .copyright__icon {
+      opacity: 0.3;
+
+      path {
+        fill: $black;
+      }
+    }
+  }
+}
+
+.copyright__icon {
   position: absolute;
-  top: -4px;
+  top: -3px;
   right: 0;
+
+  width: 27px;
+  height: 34px;
 }
 
 @media (min-width: $tablet-viewport-width) {
   .copyright {
+    justify-content: flex-end;
     width: 33.33%;
 
     text-align: right;
