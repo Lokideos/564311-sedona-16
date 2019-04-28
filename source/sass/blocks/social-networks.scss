@@ -8,6 +8,8 @@
 }
 
 .social-networks__button {
+  position: relative;
+
   display: block;
   width: 46px;
   height: 48px;
@@ -21,7 +23,43 @@
 
   &:active {
     background-color: $click-color;
+
+    .social-networks__icon {
+      opacity: 0.3;
+    }
   }
+}
+
+.social-networks__icon {
+  position: absolute;
+
+  path {
+    fill: $white;
+  }
+}
+
+.social-networks__icon--twitter {
+  top: 16px;
+  left: 14px;
+
+  width: 19px;
+  height: 15px;
+}
+
+.social-networks__icon--facebook {
+  top: 13px;
+  left: 20px;
+
+  width: 9px;
+  height: 19px;
+}
+
+.social-networks__icon--youtube {
+  top: 17px;
+  left: 13px;
+
+  width: 20px;
+  height: 14px;
 }
 
 @media (min-width: $tablet-viewport-width) {
