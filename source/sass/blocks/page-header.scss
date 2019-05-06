@@ -10,10 +10,21 @@
 
 .page-header__menu-toggle {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 15px;
+  right: 20px;
 
   order: 2;
+}
+
+.page-header__open-menu-icon {
+  width: 23px;
+  height: 22px;
+
+  g {
+    rect {
+      fill: $theme-color;
+    }
+  }
 }
 
 @media (min-width: $tablet-viewport-width) {
