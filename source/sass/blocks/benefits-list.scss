@@ -136,6 +136,10 @@
 
 .benefits-list__text-column {
   @include centring-paddings;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
 }
 
 @media (min-width: $tablet-viewport-width) {
