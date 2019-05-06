@@ -10,13 +10,14 @@
 
 .page-header__menu-toggle {
   position: absolute;
-  bottom: 15px;
+  top: 17px;
   right: 20px;
 
   order: 2;
 }
 
-.page-header__open-menu-icon {
+.page-header__toggle-menu-icon {
+  display: none;
   width: 23px;
   height: 22px;
 
@@ -24,6 +25,14 @@
     rect {
       fill: $theme-color;
     }
+  }
+}
+
+.page-header__toggle-menu-icon--closed {
+  display: block;
+
+  polygon {
+    fill: $white;
   }
 }
 
