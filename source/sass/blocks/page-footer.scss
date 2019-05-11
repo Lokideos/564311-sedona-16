@@ -15,14 +15,14 @@
   .page-footer {
     flex-direction: row;
     justify-content: space-between;
-    min-width: 768px;
+    min-width: $tablet-viewport-width;
     padding: 36px 60px;
   }
 }
 
 @media (min-width: $desktop-viewport-width) {
   .page-footer {
-    width: 1200px;
+    width: $desktop-viewport-width;
     padding: 36px 120px;
   }
 }
