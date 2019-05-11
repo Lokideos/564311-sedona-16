@@ -11,10 +11,16 @@
   top: 0;
   left: 50%;
   z-index: 1;
+}
 
+.logo__image--mobile {
   width: 102px;
   height: 83px;
   margin-left: -51px;
+}
+
+.logo__image--desktop {
+  display: none;
 }
 
 @media (min-width: $tablet-viewport-width) {
@@ -27,5 +33,23 @@
 
   .logo__image {
     top: 28px;
+  }
+}
+
+@media (min-width: $desktop-viewport-width) {
+  .logo {
+    width: 188px;
+    height: 96px;
+  }
+
+  .logo__image--mobile {
+    display: none;
+  }
+
+  .logo__image--desktop {
+    display: block;
+    width: 188px;
+    height: 96px;
+    margin-left: -94px;
   }
 }
