@@ -1,3 +1,28 @@
 .like-button {
   margin-right: 14px;
+  margin-bottom: 7px;
+}
+
+.like-button__icon {
+  path {
+    fill: $black;
+  }
+
+  opacity: 0.3;
+}
+
+@media (min-width: $tablet-viewport-width) {
+  .like-button {
+    margin-right: 9px;
+  }
+}
+
+@media (min-width: $desktop-viewport-width) {
+  .like-button__icon {
+    path {
+      fill: $white;
+    }
+
+    opacity: 1;
+  }
 }
