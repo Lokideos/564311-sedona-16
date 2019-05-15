@@ -6,8 +6,10 @@
     content: "";
 
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -1px;
+    left: 50%;
+
+    margin-left: -159px;
 
     border-top: 15px solid transparent;
     border-left: 160px solid transparent;
@@ -20,8 +22,10 @@
     content: "";
 
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1px;
+    right: 50%;
+
+    margin-right: -160px;
 
     border-top: 15px solid transparent;
     border-right: 160px solid transparent;
