@@ -10,13 +10,14 @@
 .photo-frame__description {
   margin: 0;
 
+  font-size: 14px;
   font-weight: 700;
   color: $black;
 }
 
 .photo-frame__author {
   margin: 0;
-  margin-bottom: 11px;
+  margin-bottom: 6px;
 
   text-transform: initial;
 }
@@ -24,14 +25,14 @@
 .photo-frame__image {
   width: 280px;
   height: 280px;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
 
   order: -1;
 }
 
 .photo-frame__likes {
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 @media (min-width: $tablet-viewport-width) {
