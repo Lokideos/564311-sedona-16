@@ -6,6 +6,8 @@
 
 @media (min-width: $desktop-viewport-width) {
   .counter {
+    min-width: 32px;
+
     color: inherit;
   }
 }

@@ -58,15 +58,27 @@
   }
 
   .photo-frame__likes {
-    min-width: 20px;
+    min-width: 55px;
     margin: 0;
     margin-left: auto;
-    padding-top: 35px;
-    padding-right: 20px;
+    padding-top: 26px;
+    padding-right: 30px;
   }
 
   .photo-frame--most-popular {
     width: 648px;
+
+    .photo-frame__image {
+      height: 400px;
+    }
+
+    .photo-frame__likes {
+      min-width: 20px;
+      margin: 0;
+      margin-left: auto;
+      padding-top: 27px;
+      padding-right: 20px;
+    }
   }
 
   .photo-frame__text-block {
@@ -76,9 +88,9 @@
   }
 
   .photo-frame__left-column {
-    padding-top: 22px;
-    padding-bottom: 21px;
-    padding-left: 21px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-left: 20px;
   }
 }
 
