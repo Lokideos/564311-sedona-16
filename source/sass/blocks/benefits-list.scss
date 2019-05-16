@@ -160,7 +160,7 @@
   }
 
   &-no-top-line {
-    &:before {
+    &::before {
       width: 0;
     }
   }
@@ -257,8 +257,17 @@
   .benefits-list__item--left-image {
     flex-direction: row-reverse;
     justify-content: space-between;
-
+    margin-top: 57px;
     order: 5;
+
+    .benefits-list__text-column {
+      padding-top: 45px;
+    }
+
+    .benefits-list__reason {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   .benefits-list__text-column {
@@ -291,8 +300,6 @@
 
     box-sizing: border-box;
 
-    order: 5;
-    order: 5;
     order: 5;
   }
 
@@ -348,19 +355,6 @@
   .benefits-list__icon--house {
     width: 75px;
     height: 72px;
-  }
-
-  .benefits-list__item--left-image {
-    margin-top: 57px;
-
-    .benefits-list__text-column {
-      padding-top: 45px;
-    }
-
-    .benefits-list__reason {
-      padding-left: 0;
-      padding-right: 0;
-    }
   }
 
   .benefits-list__item--housing {
