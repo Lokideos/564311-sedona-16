@@ -103,7 +103,8 @@
 @media (min-width: $desktop-viewport-width) {
   .main-promo {
     height: 301px;
-    margin-bottom: 113px;
+    margin-bottom: 110px;
+    // 49px
 
     background-image: url("../img/bg-back-desktop@1x.jpg");
 
@@ -119,7 +120,7 @@
 
   .main-promo--index-page {
     height: 518px;
-    margin-bottom: 49px;
+    margin-bottom: 113px;
 
     background-position: top;
   }
