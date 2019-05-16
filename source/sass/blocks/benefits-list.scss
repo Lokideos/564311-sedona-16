@@ -363,11 +363,40 @@
 
   .benefits-list__item--key-point {
     width: $desktop-viewport-width;
-    margin-top: 85px;
+    margin-top: 50px;
+  }
+
+  .benefits-list__item--left-image {
+    margin-top: 79px;
+
+    .benefits-list__text-column {
+      padding-top: 53px;
+    }
+
+    .benefits-list__reason {
+      margin: 0 50px;
+      margin-bottom: 9px;
+    }
+
+    .benefits-list__explanation {
+      margin: 0 30px;
+    }
+  }
+
+  .benefits-list__item--general-point {
+    padding-bottom: 65px;
+
+    .benefits-list__reason {
+      margin: 0 50px;
+      margin-bottom: 9px;
+    }
   }
 
   .benefits-list__text-column {
     width: 400px;
+    padding: 0 55px;
+    padding-top: 53px;
+    padding-bottom: 35px;
   }
 
   .benefits-list__reason {
