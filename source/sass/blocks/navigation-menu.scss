@@ -2,11 +2,17 @@
   @include list-reset;
 }
 
+.navigation-menu__item {
+  &:last-of-type {
+    box-shadow: inset 0 1px 0 $white--more-transparent;
+  }
+}
+
 .navigation-menu__link {
   @include centring-paddings;
 
   display: block;
-  padding-top: 7px;
+  padding-top: 8px;
   padding-bottom: 8px;
 
   font-size: 18px;
@@ -15,15 +21,7 @@
   color: $sub-text-color;
 
   background-color: $theme-color;
-  box-shadow: 0 1px 0 $black--transparent, inset 0 1px 0 $white--more-transparent;
-
-  &:first-of-type {
-    box-shadow: 0 1px 0 $black--transparent;
-  }
-
-  &:last-of-type {
-    box-shadow: inset 0 1px 0 $white--more-transparent;
-  }
+  box-shadow: inset 0 1.5px 0 $black--transparent;
 
   &:hover,
   &:focus {
