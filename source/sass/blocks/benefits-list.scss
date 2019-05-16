@@ -139,14 +139,30 @@
 }
 
 .benefits-list__item--general-point {
+  position: relative;
+
   margin-bottom: 0;
   padding: 28px 35px;
   padding-top: 27px;
 
-  border-top: 1px solid $grey;
+  &::before {
+    content: "";
 
-  &-no-top-border {
-    border-top: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    margin-left: -140px;
+    width: 280px;
+    height: 1px;
+
+    background-color: $grey;
+  }
+
+  &-no-top-line {
+    &:before {
+      width: 0;
+    }
   }
 }
 
