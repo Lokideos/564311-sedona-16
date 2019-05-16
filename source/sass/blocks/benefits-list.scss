@@ -250,11 +250,15 @@
   .benefits-list__item--right-image {
     flex-direction: row;
     justify-content: space-between;
+
+    order: 1;
   }
 
   .benefits-list__item--left-image {
     flex-direction: row-reverse;
     justify-content: space-between;
+
+    order: 5;
   }
 
   .benefits-list__text-column {
@@ -286,6 +290,10 @@
     border: none;
 
     box-sizing: border-box;
+
+    order: 5;
+    order: 5;
+    order: 5;
   }
 
   .benefits-list__reason {
@@ -353,6 +361,18 @@
       padding-left: 0;
       padding-right: 0;
     }
+  }
+
+  .benefits-list__item--housing {
+    order: 2;
+  }
+
+  .benefits-list__item--gifts {
+    order: 4;
+  }
+
+  .benefits-list__item--food {
+    order: 3;
   }
 }
 
