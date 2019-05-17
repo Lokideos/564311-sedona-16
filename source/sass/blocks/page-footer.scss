@@ -7,20 +7,22 @@
   align-items: center;
   min-width: $mobile-viewport-width;
   padding-top: 41px;
+
+  box-sizing: border-box;
 }
 
 @media (min-width: $tablet-viewport-width) {
   .page-footer {
     flex-direction: row;
     justify-content: space-between;
-    min-width: 648px;
+    min-width: $tablet-viewport-width;
     padding: 36px 60px;
   }
 }
 
 @media (min-width: $desktop-viewport-width) {
   .page-footer {
-    width: 960px;
+    width: $desktop-viewport-width;
     padding: 36px 120px;
   }
 }

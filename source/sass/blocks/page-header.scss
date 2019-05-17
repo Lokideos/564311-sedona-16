@@ -10,10 +10,28 @@
 
 .page-header__menu-toggle {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  top: 16px;
+  right: 20px;
 
   order: 2;
+}
+
+.page-header__toggle-menu-icon {
+  display: none;
+
+  g {
+    rect {
+      fill: $theme-color;
+    }
+  }
+}
+
+.page-header__toggle-menu-icon--closed {
+  display: block;
+
+  polygon {
+    fill: $white;
+  }
 }
 
 @media (min-width: $tablet-viewport-width) {

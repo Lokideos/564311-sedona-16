@@ -2,7 +2,7 @@
   @include centring-wrapper;
   @include centring-paddings;
 
-  margin-bottom: 33px;
+  margin-bottom: 26px;
 
   font-size: 14px;
   line-height: 24px;
@@ -12,6 +12,12 @@
 @media (min-width: $tablet-viewport-width) {
   .photo-gallery__title {
     width: 428px;
-    margin-bottom: 75px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: $desktop-viewport-width) {
+  .photo-gallery__title {
+    margin-bottom: 72px;
   }
 }

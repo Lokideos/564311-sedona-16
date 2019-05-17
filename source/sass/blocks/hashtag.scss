@@ -1,6 +1,6 @@
 .hashtag {
   display: block;
-  margin-bottom: 41px;
+  margin-bottom: 36px;
 
   font-size: 21px;
   line-height: 26px;
@@ -21,6 +21,7 @@
 @media (min-width: $tablet-viewport-width) {
   .hashtag {
     width: 33.33%;
+    margin: 0;
 
     text-align: left;
   }

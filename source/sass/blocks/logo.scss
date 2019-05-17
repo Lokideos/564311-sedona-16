@@ -11,21 +11,51 @@
   top: 0;
   left: 50%;
   z-index: 1;
+}
 
+.logo__image--mobile {
   width: 102px;
   height: 83px;
   margin-left: -51px;
 }
 
+.logo__image--desktop {
+  display: none;
+}
+
 @media (min-width: $tablet-viewport-width) {
   .logo {
+    position: relative;
+    top: -1px;
+
     width: 102px;
     height: 83px;
     margin: 0 auto;
-    margin-top: -85px;
+    margin-top: -83px;
   }
 
   .logo__image {
     top: 28px;
+  }
+}
+
+@media (min-width: $desktop-viewport-width) {
+  .logo {
+    top: 11px;
+
+    width: 188px;
+    height: 96px;
+    margin-top: -95px;
+  }
+
+  .logo__image--mobile {
+    display: none;
+  }
+
+  .logo__image--desktop {
+    display: block;
+    width: 188px;
+    height: 96px;
+    margin-left: -94px;
   }
 }
