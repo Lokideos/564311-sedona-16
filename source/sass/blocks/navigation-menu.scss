@@ -72,6 +72,18 @@
     &:nth-of-type(4n + 2) {
       margin-right: 20%;
     }
+
+    &:first-of-type {
+      .navigation-menu__link {
+        box-shadow: none;
+      }
+    }
+
+    &:last-of-type {
+      .navigation-menu__link {
+        box-shadow: none;
+      }
+    }
   }
 
   .navigation-menu__link {
