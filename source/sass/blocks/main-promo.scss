@@ -43,6 +43,10 @@
     border-left-width: 0;
     border-right-color: $white;
   }
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-back-mobile@2x.jpg");
+  }
 }
 
 .main-promo--index-page {
@@ -78,6 +82,10 @@
 
       margin-left: -384px;
     }
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-tablet@2x.jpg");
+    }
   }
 
   .main-promo--index-page {
@@ -90,7 +98,7 @@
   .main-promo__title {
     width: 458px;
     height: 78px;
-    margin-top: 95px;
+    margin-top: 100px;
   }
 
   .main-promo__title--big {
@@ -114,6 +122,10 @@
       left: 50%;
 
       margin-left: -600px;
+    }
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-desktop@2x.jpg");
     }
   }
 

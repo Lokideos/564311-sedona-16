@@ -37,3 +37,7 @@ $photo-frame-odd-bg-color: $white--darker;
 $mobile-viewport-width: 320px;
 $tablet-viewport-width: 768px;
 $desktop-viewport-width: 1200px;
+
+// Retina breakpoints
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;

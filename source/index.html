@@ -7,14 +7,22 @@
     <meta name="keywords" content="Аризона,Жильё,Еда,Городок,Гостиница">
     <meta name="description" content="Если вы всегда мечтали побывать в Grand Canyon'е, то забудьте об этом! Ведь есть Седона! Вперед в горы!">
     <link href="css/style.css" rel="stylesheet">
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+    <script src="picturefill.js" async></script>
   </head>
   <body>
     <div class="page-wrapper">
       <div class="content-wrapper">
         <header class="page-header">
           <a class="logo">
-            <img class="logo__image logo__image--mobile" src="img/logo-sedona-mobile.svg" alt="Логотип Sedona" width="102" height="83">
-            <img class="logo__image logo__image--desktop" src="img/logo-sedona-desktop.svg" alt="Логотип Sedona" width="188" height="96">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+              <img class="logo__image" src="img/logo-sedona-mobile.svg" alt="Логотип Sedona" width="102" height="83">
+            </picture>
           </a>
           <button class="page-header__menu-toggle button" type="button">
             <span class="visually-hidden">Переключить меню</span>
@@ -69,7 +77,11 @@
                   <p class="benefits-list__reason">Настоящий городок</p>
                   <p class="benefits-list__explanation">Седона не аттракцион для туристов, там течет своя жизнь</p>
                 </div>
-                <img class="benefits-list__image" src="img/main-city-mobile@1x.jpg" alt="Настоящий городок" width="320" height="260">
+                <picture class="benefits-list__picture">
+                  <source media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.jpg 1x, img/main-city-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/main-city-tablet@1x.jpg 1x, img/main-city-tablet@2x.jpg 2x">
+                  <img class="benefits-list__image" src="img/main-city-mobile@1x.jpg" srcset="img/main-city-mobile@2x.jpg 2x" alt="Настоящий городок" width="320" height="260">
+                </picture>
               </li>
               <li class="benefits-list__item benefits-list__item--common benefits-list__item--housing">
                 <p class="benefits-list__reason">Жилье</p>
@@ -117,7 +129,11 @@
                   <p class="benefits-list__reason">Там есть мост&nbsp;дьявола</p>
                   <p class="benefits-list__explanation">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
                 </div>
-                <img class="benefits-list__image" src="img/main-bridge-mobile@1x.jpg" alt="Мост дьявола" width="320" height="260">
+                <picture class="benefits-list__picture">
+                  <source media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.jpg 1x, img/main-bridge-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/main-bridge-tablet@1x.jpg 1x, img/main-bridge-tablet@2x.jpg 2x">
+                  <img class="benefits-list__image" src="img/main-bridge-mobile@1x.jpg" srcset="img/main-bridge-mobile@2x.jpg 2x" alt="Мост дьявола" width="320" height="260">
+                </picture>
               </li>
               <li class="benefits-list__item benefits-list__item--general-point benefits-list__item--general-point-no-top-line">
                 <p class="benefits-list__number">№3</p>

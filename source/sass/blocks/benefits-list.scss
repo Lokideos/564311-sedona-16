@@ -97,10 +97,15 @@
   line-height: 21px;
 }
 
+.benefits-list__picture {
+  height: 260px;
+}
+
 .benefits-list__image {
   width: 100%;
-  height: 260px;
   margin-top: 40px;
+
+  object-fit: cover;
 }
 
 .benefits-list__item--common {
@@ -280,10 +285,16 @@
     box-sizing: border-box;
   }
 
-  .benefits-list__image {
+  .benefits-list__picture {
     width: 66.66%;
     height: 256px;
+  }
+
+  .benefits-list__image {
+    // height: 256px;
     margin: 0;
+
+    object-fit: cover;
   }
 
   .benefits-list__item--key-point {
@@ -417,10 +428,5 @@
     padding: 0 50px;
 
     font-size: 21px;
-  }
-
-  .benefits-list__image {
-    width: 800px;
-    height: 256px;
   }
 }
