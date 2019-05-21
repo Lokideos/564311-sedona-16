@@ -14,6 +14,18 @@
     <script src="picturefill.js" async></script>
   </head>
   <body>
+    <svg class="svg-sprite">
+      <symbol id="menu-toggle-open">
+        <g>
+          <rect width="22.928" height="3.964"/>
+          <rect y="9.009" width="22.928" height="3.964"/>
+          <rect y="18.018" width="22.928" height="3.964"/>
+        </g>
+      </symbol>
+      <symbol id="menu-toggle-close">
+        <polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 "/>
+      </symbol>
+    </svg>
     <div class="page-wrapper">
       <div class="content-wrapper">
         <header class="page-header">
@@ -27,14 +39,10 @@
           <button class="page-header__menu-toggle button" type="button">
             <span class="visually-hidden">Переключить меню</span>
             <svg class="page-header__toggle-menu-icon" width="23" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
-              <g>
-                <rect width="22.928" height="3.964"/>
-                <rect y="9.009" width="22.928" height="3.964"/>
-                <rect y="18.018" width="22.928" height="3.964"/>
-              </g>
+              <use xlink:href="#menu-toggle-open"></use>
             </svg>
             <svg class="page-header__toggle-menu-icon page-header__toggle-menu-icon--closed" width="23" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve">
-              <polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 "/>
+              <use xlink:href="#menu-toggle-close"></use>
             </svg>
           </button>
           <nav class="navigation-menu">
