@@ -4,9 +4,7 @@
 }
 
 .like-button__icon {
-  path {
-    fill: $black;
-  }
+  fill: $black;
 
   opacity: 0.3;
 }
@@ -19,9 +17,7 @@
 
 @media (min-width: $desktop-viewport-width) {
   .like-button__icon {
-    path {
-      fill: $white;
-    }
+    fill: $white;
 
     opacity: 1;
   }
