@@ -187,43 +187,21 @@
   top: 23px;
   left: 18px;
 
-  g {
-    path {
-      fill: $theme-color;
-    }
-
-    polygon {
-      fill: $theme-color;
-    }
-
-    circle {
-      fill: $theme-color;
-    }
-  }
+  fill: $theme-color;
 }
 
 .benefits-list__icon--gift {
   top: 17px;
   left: 25px;
 
-  path {
-    fill: $theme-color;
-  }
+  fill: $theme-color;
 }
 
 .benefits-list__icon--house {
   top: 19px;
   left: 21px;
 
-  g {
-    path {
-      fill: $theme-color;
-    }
-
-    rect {
-      fill: $theme-color;
-    }
-  }
+  fill: $theme-color;
 }
 
 .benefits-list__item--left-image {
@@ -291,7 +269,6 @@
   }
 
   .benefits-list__image {
-    // height: 256px;
     margin: 0;
 
     object-fit: cover;

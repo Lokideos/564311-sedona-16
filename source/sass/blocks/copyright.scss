@@ -15,9 +15,7 @@
   &:hover,
   &:focus {
     .copyright__icon {
-      path {
-        fill: $theme-color;
-      }
+      fill: $theme-color;
     }
   }
 
@@ -25,9 +23,7 @@
     .copyright__icon {
       opacity: 0.3;
 
-      path {
-        fill: $black;
-      }
+      fill: $black;
     }
   }
 }

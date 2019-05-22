@@ -19,19 +19,13 @@
 .page-header__toggle-menu-icon {
   display: none;
 
-  g {
-    rect {
-      fill: $theme-color;
-    }
-  }
+  fill: $theme-color;
 }
 
 .page-header__toggle-menu-icon--closed {
   display: block;
 
-  polygon {
-    fill: $white;
-  }
+  fill: $white;
 }
 
 @media (min-width: $tablet-viewport-width) {
