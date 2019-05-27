@@ -46,12 +46,12 @@ gulp.task("webp", function() {
     .pipe(gulp.dest("source/img"))
 })
 
-gulp.task("svgsprite", function() {
+gulp.task("sprite", function() {
   return gulp.src("source/img/icon-*.svg")
     .pipe(svgstore({
       inlineSvg: true
     }))
-    .pipe(rename("svg-sprite.svg"))
+    .pipe(rename("sprite.svg"))
     .pipe(gulp.dest("source/img"))
 })
 
