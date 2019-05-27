@@ -4,6 +4,8 @@ var gulp = require("gulp");
 var plumber = require("gulp-plumber");
 var sourcemap = require("gulp-sourcemaps");
 var rename = require("gulp-rename");
+var imagemin = require("gulp-imagemin");
+var webp = require("gulp-webp");
 
 var sass = require("gulp-sass");
 var postcss = require("gulp-postcss");
@@ -34,7 +36,13 @@ gulp.task("optimize_images", function() {
       imagemin.jpegtran({progressive: true}),
       imagemin.svgo()
     ]))
-    .pipe(gilp.dest("source/img"))
+    .pipe(gulp.dest("source/img"))
+})
+
+gulp.task("webp", function() {
+  return gulp.src("source/img/**/*.{png,jpg}")
+    .pipe(webp({quality: 85}))
+    .pipe(gulp.dest("source/img"))
 })
 
 gulp.task("server", function () {
