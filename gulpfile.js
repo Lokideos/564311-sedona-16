@@ -6,6 +6,7 @@ var sourcemap = require("gulp-sourcemaps");
 var rename = require("gulp-rename");
 var imagemin = require("gulp-imagemin");
 var webp = require("gulp-webp");
+var svgstore = require("gulp-svgstore");
 
 var sass = require("gulp-sass");
 var postcss = require("gulp-postcss");
@@ -42,6 +43,15 @@ gulp.task("optimize_images", function() {
 gulp.task("webp", function() {
   return gulp.src("source/img/**/*.{png,jpg}")
     .pipe(webp({quality: 85}))
+    .pipe(gulp.dest("source/img"))
+})
+
+gulp.task("svgsprite", function() {
+  return gulp.src("source/img/icon-*.svg")
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
+    .pipe(rename("svg-sprite.svg"))
     .pipe(gulp.dest("source/img"))
 })
 
