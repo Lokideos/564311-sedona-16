@@ -395,7 +395,35 @@
 }
 
 .feedback-form__section--feedback {
+  margin-bottom: 31px;
+
   .feedback-form__title {
     margin-bottom: 18px;
+  }
+}
+
+.feedback-form__submit {
+  @include shared-button-styles;
+
+  width: 280px;
+  min-height: 58px;
+  margin-bottom: 13px;
+
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $white;
+
+  background-color: $theme-color;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+  }
+
+  &:active {
+    background-color: $click-color;
+    color: $white--less-transparent;
   }
 }

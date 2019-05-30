@@ -38,3 +38,17 @@
     padding: 0 120px;
   }
 }
+
+@mixin shared-button-styles {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  vertical-align: middle;
+
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
