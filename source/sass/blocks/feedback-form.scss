@@ -1,6 +1,7 @@
 .feedback-form__section {
   display: flex;
   margin: 0;
+  margin-bottom: 5px;
   padding: 0;
 
   border: none;
@@ -17,11 +18,16 @@
   text-transform: uppercase;
 }
 
-.feedack-form__input-wrapper {
+.feedback-form__input-wrapper {
   display: flex;
   margin-right: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
+}
+
+.feedback-form__input-wrapper--contacts {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .feedback-form__label-fio {
@@ -52,7 +58,7 @@
   }
 
   &:focus {
-    background-color: white;
+    background-color: $white;
     border: 4px solid $grey--lighter;
   }
 
@@ -75,5 +81,105 @@
     line-height: 26px;
     font-weight: 700;
     color: $black;
+  }
+}
+
+.feedback-form__label-contacts {
+  margin-bottom: 6px;
+  margin-left: 21px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.feedback-form__input-contacts {
+  position: relative;
+
+  width: 100%;
+  padding-top: 13px;
+  padding-right: 58px;
+  padding-bottom: 11px;
+  padding-left: 18px;
+  margin-bottom: -8px;
+
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+
+  border: 4px solid transparent;
+  background-color: $white--darker;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: $grey--lighter;
+  }
+
+  &:focus {
+    background-color: $white;
+    border: 4px solid $grey--lighter;
+  }
+
+  &::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $black;
+  }
+
+  &:-moz-placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $black;
+  }
+
+  &:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $black;
+  }
+}
+
+.feedback-form__text-input-wrapper {
+  position: relative;
+
+  width: 100%;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    width: 58px;
+    height: 58px;
+
+    background-color: $grey--more-lighter;
+  }
+}
+
+.feedback-form__text-input-wrapper--cellphone {
+  &::after {
+    content: url("../img/icon-phone.svg");
+
+    position: absolute;
+    top: 20px;
+    right: 19px;
+    z-index: 1;
+  }
+}
+
+.feedback-form__text-input-wrapper--email {
+  &::after {
+    content: url("../img/icon-mail.svg");
+
+    position: absolute;
+    top: 22px;
+    right: 21px;
+    z-index: 1;
   }
 }

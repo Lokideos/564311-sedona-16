@@ -70,19 +70,38 @@
                 <legend class="visually-hidden">Фамилия, Имя, Отчество</legend>
                 <h2 class="feedback-form__title">Представьтесь:</h2>
 
-                <div class="feedack-form__input-wrapper">
+                <div class="feedback-form__input-wrapper">
                   <label class="feedback-form__label-fio" for="customer-first-name">Имя*:</label>
                   <input class="feedback-form__input-fio"type="text" id="customer-first-name" placeholder="Петр">
                 </div>
 
-                <div class="feedack-form__input-wrapper">
+                <div class="feedback-form__input-wrapper">
                   <label class="feedback-form__label-fio" for="customer-last-name">Фамилия*:</label>
                   <input class="feedback-form__input-fio" type="text" id="customer-last-name" placeholder="Иванов">
                 </div>
 
-                <div class="feedack-form__input-wrapper">
+                <div class="feedback-form__input-wrapper">
                   <label class="feedback-form__label-fio" for="customer-middle-name">Отчество:</label>
                   <input class="feedback-form__input-fio" type="text" id="customer-middle-name" placeholder="Александрович">
+                </div>
+              </fieldset>
+
+              <fieldset class="feedback-form__section">
+                <legend class="visually-hidden">Контактные данные</legend>
+                <h2 class="feedback-form__title">Контактная информация:</h2>
+
+                <div class="feedback-form__input-wrapper feedback-form__input-wrapper--contacts">
+                  <label class="feedback-form__label-contacts" for="customer-cellphone-number">Контактный телефон:*</label>
+                  <div class="feedback-form__text-input-wrapper feedback-form__text-input-wrapper--cellphone">
+                    <input class="feedback-form__input-contacts" type="text" id="customer-cellphone-number" placeholder="Введите телефон">
+                  </div>
+                </div>
+
+                <div class="feedback-form__input-wrapper feedback-form__input-wrapper--contacts">
+                  <label class="feedback-form__label-contacts" for="customer-email">Электронная почта:*</label>
+                  <div class="feedback-form__text-input-wrapper feedback-form__text-input-wrapper--email">
+                    <input class="feedback-form__input-contacts" type="text" id="customer-email" placeholder="Введите e-mail">
+                  </div>
                 </div>
               </fieldset>
             </form>
