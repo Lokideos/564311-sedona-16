@@ -86,7 +86,7 @@
                 </div>
               </fieldset>
 
-              <fieldset class="feedback-form__section">
+              <fieldset class="feedback-form__section feedback-form__section--contacts">
                 <legend class="visually-hidden">Контактные данные</legend>
                 <h2 class="feedback-form__title">Контактная информация:</h2>
 
@@ -102,6 +102,41 @@
                   <div class="feedback-form__text-input-wrapper feedback-form__text-input-wrapper--email">
                     <input class="feedback-form__input-contacts" type="text" id="customer-email" placeholder="Введите e-mail">
                   </div>
+                </div>
+              </fieldset>
+
+              <fieldset class="feedback-form__section feedback-form__section--impressions">
+                <legend class="visually-hidden">Впечателние</legend>
+                <h2 class="feedback-form__title">Ваше Общее впечатление:</h2>
+
+                <div class="feedback-form__input-wrapper">
+                  <ul class="feedback-form__impressions-control-list">
+                    <li class="feedback-form__impressions-control-item">
+                      <input class="visually-hidden feedback-form__impressions-input"
+                            type="radio"
+                            name="impressions-group"
+                            value="positive"
+                            id="impressions-positive"
+                            checked>
+                      <label class="feedback-form__label-impressions" for="impressions-positive">Скорее положительное</label>
+                    </li>
+                    <li class="feedback-form__impressions-control-item">
+                      <input class="visually-hidden feedback-form__impressions-input"
+                            type="radio"
+                            name="impressions-group"
+                            value="negative"
+                            id="impressions-negative">
+                      <label class="feedback-form__label-impressions" for="impressions-negative">Скорее отрицательное</label>
+                    </li>
+                    <li class="feedback-form__impressions-control-item">
+                      <input class="visually-hidden feedback-form__impressions-input"
+                            type="radio"
+                            name="impressions-group"
+                            value="none"
+                            id="impressions-none">
+                      <label class="feedback-form__label-impressions" for="impressions-none">Затрудняюсь ответить</label>
+                    </li>
+                  </ul>
                 </div>
               </fieldset>
             </form>
