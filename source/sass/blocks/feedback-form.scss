@@ -25,6 +25,7 @@
 }
 
 .feedback-form__title {
+  margin: 0 20px;
   margin-top: 18px;
   margin-bottom: 21px;
 
@@ -37,9 +38,12 @@
 
 .feedback-form__input-wrapper {
   display: flex;
+  width: 90%;
   margin-right: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
+
+  box-sizing: border-box;
 }
 
 .feedback-form__input-wrapper--contacts {
@@ -335,5 +339,63 @@
 
   &:checked + .feedback-form__label-sights:active::after {
     opacity: 0.3;
+  }
+}
+
+.feedback-form__section--sights {
+  margin-bottom: 0;
+
+  .feedback-form__input-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+.feedback-form__feedback-message-text {
+  width: 279px;
+  min-height: 160px;
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-left: 16px;
+
+  border: 4px solid transparent;
+  background-color: $white--darker;
+
+  box-sizing: border-box;
+  resize: none;
+
+  &::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $black;
+  }
+
+  &:-moz-placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $black;
+  }
+
+  &:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $black;
+  }
+
+  &:hover {
+    background-color: $grey--lighter;
+  }
+
+  &:focus {
+    background-color: $white;
+    border: 4px solid $grey--lighter;
+  }
+}
+
+.feedback-form__section--feedback {
+  .feedback-form__title {
+    margin-bottom: 18px;
   }
 }
