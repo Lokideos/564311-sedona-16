@@ -36,14 +36,9 @@ $photo-frame-even-bg-color: $white--dark;
 $photo-frame-odd-bg-color: $white--darker;
 
 // Viewport breakpoints
-// $mobile-viewport-width: 320px;
-// $tablet-viewport-width: 768px;
-// $desktop-viewport-width: 1200px;
-
-// Viewport breakpoints
 $mobile-viewport-width: 320px;
-$tablet-viewport-width: 9999999px;
-$desktop-viewport-width: 999999px;
+$tablet-viewport-width: 768px;
+$desktop-viewport-width: 1200px;
 
 // Retina breakpoints
 $retina-dpi: 144dpi;
